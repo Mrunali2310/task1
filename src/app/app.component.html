@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+ 
+  <div class="horizantal">
+    <div class="icon1">
+
+      <img src="assets/Group.png">
+      
+      <a  class="Das-icon"routerLink=" auditica "> auditica </a>
+     </div>
+     <div class="icon2">
+
+      <img src="assets/Auditica - Responsive Music Web App (Community)\icon\dashboard\nav bar button.png">
+      
+      <!-- <a  class="Das-icon"routerLink=" auditica "> auditica </a> -->
+     </div>
+     <div class="icon3">
+      <img src="assets/Auditica - Responsive Music Web App (Community)\coolicon.png">
+      <div class="Browse">Browse</div>
+      </div>
+      <div class="icon4">
+        <img src="assets/Auditica - Responsive Music Web App (Community)\icon\dashboard\coolicon (2).png">
+        <div class="Favorite">Favorite</div>
+      </div>
+      <div class="icon5">
+        <img src="assets/Auditica - Responsive Music Web App (Community)\icon\dashboard\headphones.png">
+        <div class="Library">Library</div>
+      </div>
+      
+      <div class="icon6">
+        <img src="assets/coolicon.png">
+        <div class="home">Home</div>
+      </div>
+      <div class="icon7">
+        <img src="assets/Auditica - Responsive Music Web App (Community)\icon\dashboard\coolicon.png">
+      </div>
+      <div class="workplace">For workplace</div>
+      <div class="icon8">
+        <img src="assets/Vector (3).png">
+      </div>
+      <div class="name1">Rich Brian’s collections</div>
+      <div class="name2">deep focus</div>
+      <div class="name3">Lo-Fi Jazz upbeat</div>
+      <div class="name4">For workplace</div>
+      <div class="name5">Christmas playlist</div>
+
+    </div>
+    <div class="vertical">
+<div class="image">
+  <img src="assets/Banner.png">
+</div>
+    </div>
+    <div class="div2">
+      
+<div class="record">
+  <img src="assets/Auditica - Responsive Music Web App (Community)\icon\dashboard\top track real-time (1).png">
+</div>
+<div class="imagediv">
+  <div class="text1234">
+    <input type="text" placeholder="         Type here...">
+  </div>
+  <div class="rb">R&B</div>
+  <div class="pop">Pop</div>
+  <div class="rap">Rap</div>
+  <div class="Ballad">Ballad</div>
+  <div class="Country">Country</div>
+  <div class="Hip">Hip Hop</div>
+  <div class="FEATURED ">FEATURED SONGS</div>
+  <div class="Post ">Post Malone</div>
+  <div class="Circles">Circles</div>
+  <div class="set">
+    <img src="assets/coolicon.png">
+  </div>
+  <div class="heart">
+    <img src="assets/Auditica - Responsive Music Web App (Community)\icon\dashboard\coolicon (2).png">
+  </div>
+  <div class="play">
+    <img src="assets/play.png">
+  </div>
+</div>
+<div class="threeimage">
+  
+</div>
+    </div>
+    
+  
+            
+              
+           
+            <div classs="middlediv">
+        <div class="new">New Releases</div>
+        <div class="see">See more</div>
+        <div class="icon10">
+          <img src="assets/playicon.png">
+        </div>
+        <div class="icon12">
+          <img src="assets/Auditica - Responsive Music Web App (Community)\icon\dashboard\recent played songs cover.png">
+        </div>
+        <div class="icon11">
+          <img src="assets/Auditica - Responsive Music Web App (Community)\icon\dashboard\songs cover.png">
+        </div>
+        <div class="icon13">
+          <img src="assets/Auditica - Responsive Music Web App (Community)\icon\dashboard\recent played songs cover (1).png">
+        </div>
+       
+         <div class="horizantalpart">
+          <table>&nbsp;&nbsp;&nbsp;&nbsp;
+            <thead>
+              <tr class="row0">
+                <th class="col1">No</th>
+               <th class="col2">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th class="col3">song</th>
+                <th class="col4">rating</th>
+               
+              </tr>
+            </thead>
+            <tbody>
+              <ng-container *ngFor="let item of UserData; let i = index">
+                
+                    <tr><td>
+                      &nbsp; &nbsp; &nbsp;<img [src]="item.image">  {{item.Name}}
+                    <img [src]="item.image1">
+                    <img [src]="item.image2">
+                       <small class="small-f">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{item.song}}</small>
+                      </td>
+                  
+                    <td class="Class">{{ item.song }}</td>
+                    <td class="Gender">{{ item.rating }}</td>
+                  </tr>
+                </ng-container>
+              <!-- </ng-container> -->
+            </tbody>
+          </table>
+         </div>
+            </div>
+    
+ 
+</body>
+</html>
+
+
